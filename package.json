@@ -5,6 +5,7 @@
     "main": "index.js",
     "type": "module",
     "scripts": {
+        "start": "tsx main.ts",
         "test": "node --loader tsx --test calculator.test.ts",
         "test:watch": "node --loader tsx --watch calculator.test.ts"
     },
