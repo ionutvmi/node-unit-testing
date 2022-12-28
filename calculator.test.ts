@@ -1,9 +1,12 @@
+import test from "node:test";
+import assert from "assert/strict";
+
 import { add } from "./calculator";
 
 test("add", () => {
-    expect(add(24, 2)).toBe(26);
-    expect(add(24, 2, 4)).toBe(30);
-    expect(add(24, 2, 4, 5)).toBe(35);
+    assert.strictEqual(add(24, 2), 26);
+    assert.strictEqual(add(24, 2, 4), 30);
+    assert.strictEqual(add(24, 2, 4, 5), 35);
 
-    expect(add(...[24, 2, 4, 5])).toBe(35);
+    assert.strictEqual(add(...[24, 2, 4, 5]), 35);
 });
