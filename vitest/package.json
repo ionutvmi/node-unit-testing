@@ -1,0 +1,24 @@
+{
+    "name": "unit-testing",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "start": "tsx main.ts",
+        "test": "vitest run",
+        "test:watch": "vitest watch"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "MIT",
+    "devDependencies": {
+        "@types/node": "^18.11.18",
+        "@typescript-eslint/eslint-plugin": "^5.47.1",
+        "@typescript-eslint/parser": "^5.47.1",
+        "eslint": "^8.30.0",
+        "tap-arc": "^0.3.5",
+        "tsx": "^3.12.1",
+        "vitest": "^0.26.2"
+    }
+}

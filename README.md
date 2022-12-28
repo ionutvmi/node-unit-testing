@@ -4,10 +4,20 @@
 Example setup for unit testing with various test frameworks.
 
 
-# Native NodeJS 18 test runner
-[native-node-18](./native-node-18)
+# Vitest
 
-![](./screenshots/native-node18.png)
+[vitest](./vitest)
+
+![](./screenshots/vitest.png)
+
+Vitest has support for the vscode test runner.
+
+https://marketplace.visualstudio.com/items?itemName=ZixuanChen.vitest-explorer
+
+![](./screenshots/vitest-vscode.png)
+
+![](./screenshots/vitest-vscode-inlay.png)
+
 
 # Jest
 
@@ -21,8 +31,16 @@ https://marketplace.visualstudio.com/items?itemName=Orta.vscode-jest
 
 ![](./screenshots/jest-vscode.png)
 
+
 # Mocha
 
 [mocha](./mocha)
+
 ![](./screenshots/mocha.png)
+
+# Native NodeJS 18 test runner
+[native-node-18](./native-node-18)
+
+![](./screenshots/native-node18.png)
+
 
