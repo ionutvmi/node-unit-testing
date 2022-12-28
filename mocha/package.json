@@ -1,0 +1,27 @@
+{
+    "name": "unit-testing",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "start": "tsx main.ts",
+        "test": "cross-env NODE_OPTIONS='--loader tsx ./node_modules/mocha/bin/mocha.js --ui tdd *.test.ts",
+        "test:watch": "cross-env NODE_OPTIONS='--loader tsx ./node_modules/mocha/bin/mocha.js --ui tdd --watch --watch-files *.ts *.test.ts"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "MIT",
+    "devDependencies": {
+        "@types/mocha": "^10.0.1",
+        "@types/node": "^18.11.18",
+        "@typescript-eslint/eslint-plugin": "^5.47.1",
+        "@typescript-eslint/parser": "^5.47.1",
+        "eslint": "^8.30.0",
+        "mocha": "^10.2.0",
+        "tsx": "^3.12.1"
+    },
+    "dependencies": {
+        "cross-env": "^7.0.3"
+    }
+}
